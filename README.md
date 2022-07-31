@@ -12,34 +12,32 @@ Install python
 
 Install Pandas. It's a python library
 1. Open Command Line
-2. Type as: py -m pip install pandas
+2. Type as: `py -m pip install pandas`
 3. Pandas will be installed in machine
-4. Now type - pip install --upgrade pip
 
 Install IDE:
 1. Install Pycham/ Jupiter/ any other python supported IDE
-2. To explore the code of program open all.py in IDE
+2. To explore the code of program open `all.py` in IDE
 
 ## How to navigate to run program
-Open cmd. Then navigate to program folder. Example- C:\Users\Desktop\program\all.py 
-or open folder that contain program file and then run cmd here.
+Open cmd. Then navigate to program folder. Example- `C:\Users\Desktop\program\all.py` or open folder that contain program file and then run cmd here.
 
 
 
 ## How to run program
-1. Type: py all.py in CMD
+1. Type: `py all.py` in CMD
 2. its will ask for 3 input to give. 
 3. Enter arguments in CMD as given below:
-   1. argument1 : data_cases_1.csv
-   2. argument2: disease_list.csv
-   3. argument3: indicators_1.json
+   1. argument1 : `data_cases_1.csv`
+   2. argument2: `disease_list.csv`
+   3. argument3: `indicators_1.json`
 4. Now press enter and program will run
-5. If corrupted data inserted as argument1. then program will fix it by eliminating "ABB from program. and all column will be shifted to right column
+5. If corrupted data inserted as argument1 like `data_cases_corrupted.csv`. then program will fix it by eliminating "ABB from program. and all column will be shifted to right column
 6. Argument serial have to be follow to run program properly.
 7. After program run, this program will analyse both csv file and find summery as requiremnt.
 8. Its will generate two json file with summery from csv files.
-9. As output specified in cmd, indicators_1.json will be generated will summery
-10. Another json file indicators_advanced_1.jsom will be generated as well.
+9. As output specified in cmd, as like `indicators_1.json` json file will be generated with summery
+10. Another json file `indicators_advanced_1.json` will be generated as well.
 
 
 ## Requiement of assignment:
