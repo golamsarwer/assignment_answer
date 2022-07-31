@@ -1,8 +1,19 @@
 # Anser of Assignment for a Software Engineer position July 2022
-## Instructions:
-Install python 
+## Installations:
+Install python
+1. Dowload Python latest version
+2. Open installation file
+3. Click checkbox "ADD Python to PATH" at below of popup
+4. Click Customize installation
+5. Click all checkbox of Optional Feature and then click install
+6. Click first five checkbox of advanced option
+7. Install location should be as C:\Program Files\Python_vesion* and then click install. 
+8. Now python successfully installed 
 Install Pandas. It's a python library
-Install Pycharm or jupiter or any ide(Support python) if you need to explore all.py program.
+1. Open Command Line
+2. Type as: py -m pip install pandas
+3. Pandas will be installed in machine
+4. Now type - pip install --upgrade pip
 
 ## How to navigate to run program
 Open cmd. Then navigate to program folder. Example- C:\Users\Desktop\program\all.py 
@@ -26,7 +37,7 @@ or open folder that contain program file and then run cmd here.
 10. Another json file indicators_advanced_1.jsom will be generated as well.
 
 
-
+## Requiement of assignment:
 There are five main tasks A-E. Even if you are not able to complete all the tasks, make sure your program is functioning and well documented. You can use any technology stack you prefer, however you need to provide clear instructions on how to deploy your program.
 
 A. Your program reads in two input csv files, `data_cases_1.csv` with records of cases of animal diseases, and `disease_list.csv` that contains names of the diseases. Your first task is to extract some summary statistics from those files to produce the output in a valid json file. See provided example `indicators_1.json` ). Make sure your output matches the example, and your program works correctly on `data_cases_2.csv` as well. 
