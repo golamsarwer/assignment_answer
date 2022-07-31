@@ -90,10 +90,10 @@ except:
     data_case_qc['total_number_cases'] = data_case_qc['total_number_cases'].astype(int)
     # assigning values
     data_case = data_case_qc
+    print("CSV file were corrupted. It's already fixed by this program")
 
 # using merge function to marge data_cases and disease_list
 data_marge= pd.merge(data_case, disease_list_csv, left_on='disease_id', right_on='id')
-print(data_marge)
 # group by location
 group_by_hospital = data_marge.groupby(['location'])['number_mortality'].sum()
 
@@ -102,8 +102,6 @@ group_by_disease = data_marge.groupby(['name'])['number_mortality'].sum()
 
 # counting total number of case
 sum_case = data_marge['total_number_cases'].sum()
-print(sum_case)
-print(group_by_disease)
 # finding avarage of cat
 cat_avr = data_marge.loc[data_marge['species'] == 'cat', 'number_morbidity'].mean()
 # converting cat_avr value to two decimal value
@@ -119,7 +117,7 @@ advance_data = {
     "total number of deaths from each disease": group_by_disease.to_dict()
 }
 
-#writing in indicator.json file
+#writing in specified output name from CMS as indicator.json file
 with open(destination_input, "w") as outfile:
     json.dump(indicator_data, outfile, indent=1)
 #writing in advance.json file
