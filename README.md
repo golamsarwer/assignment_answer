@@ -27,7 +27,7 @@ or open folder that contain program file and then run cmd here.
 
 
 ## How to run program
-1. Type all.py in CMD
+1. Type: py all.py in CMD
 2. its will ask for 3 input to give. 
 3. Enter arguments in CMD as given below:
    1. argument1 : data_cases_1.csv
