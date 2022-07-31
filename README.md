@@ -1,4 +1,4 @@
-# Anser of Assignment for a Software Engineer position July 2022
+# Answer of Assignment for a Software Engineer position July 2022
 ## Installations:
 Install python
 1. Dowload Python latest version
