@@ -9,11 +9,16 @@ Install python
 6. Click first five checkbox of advanced option
 7. Install location should be as C:\Program Files\Python_vesion* and then click install. 
 8. Now python successfully installed 
+
 Install Pandas. It's a python library
 1. Open Command Line
 2. Type as: py -m pip install pandas
 3. Pandas will be installed in machine
 4. Now type - pip install --upgrade pip
+
+Install IDE:
+1. Install Pycham/ Jupiter/ any other python supported IDE
+2. To explore the code of program open all.py in IDE
 
 ## How to navigate to run program
 Open cmd. Then navigate to program folder. Example- C:\Users\Desktop\program\all.py 
